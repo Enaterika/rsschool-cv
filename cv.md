@@ -33,10 +33,6 @@ function multiply(a, b){
 
 none
 
-## English
-
-B2 Ilets
-
 ## Education
 
 - University: St Petersburg University, clinical psychology
@@ -44,3 +40,7 @@ B2 Ilets
 - CS50
 - HTML Academy
 - Design School "Detail" Moscow
+
+## English
+
+B2 Ilets
