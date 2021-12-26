@@ -1,1 +1,149 @@
-..
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/Roboto.ttf");
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav-list,
+    .block {
+      flex-direction: column;
+    }
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  h1,
+  h2,
+  p,
+  code {
+    padding: 0 40px 0px;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  .header,
+  .main,
+  .footer {
+  }
+  
+  /* .header {
+    position: sticky;
+    top: 0;
+  } */
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    background-color: black;
+  }
+  
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: darkslategray;
+  }
+  
+  .nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    background-color: darkslategray;
+    font-weight: bold;
+    padding: 0 12% 0;
+  }
+  
+  .nav-link {
+    font-size: small;
+    color: black;
+    transition: 0.3s;
+    background-color: darkslategray;
+  }
+  
+  .nav-link:hover {
+    cursor: pointer;
+    color: white;
+  }
+  
+  .block {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 12% 0;
+    margin: 0;
+  }
+  .block-left,
+  .block-right {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .block-left {
+    background-color: rgb(60, 52, 66);
+    color: lightgrey;
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  
+  .block-right {
+    background-color: lightgrey;
+  }
+  
+  .section {
+  }
+  .photo {
+    width: 60%;
+    padding: 3% 7% 2%;
+  }
+  
+  #about {
+    background-color: rgb(141, 141, 141);
+    text-align: left;
+    font-style: italic;
+    padding: 5% 5% 5%;
+  }
+  
+  #avatar {
+    color: lightgrey;
+    text-align: center;
+    background-color: rgb(43, 49, 66);
+  }
+  
+  #footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkslategray;
+    color: white;
+  }
+  
+  .tel-link {
+    color: lightgrey;
+  }
+  .tel-link:hover {
+    cursor: pointer;
+    color: black;
+    transition: 0.3s;
+  }
+  
+  .github {
+    color: lightgrey;
+  }
+  
+  .code {
+    text-align: left;
+  }
+  
